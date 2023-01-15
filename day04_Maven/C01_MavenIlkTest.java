@@ -40,9 +40,9 @@ public class C01_MavenIlkTest {
 
         //Sayfadaki tum basliklari yazdiralim
         List<WebElement> sayfaBasliklariListesi = driver.findElements(By.xpath("//h1"));
-        // for (WebElement w:sayfaBasliklariListesi) {
-        //     System.out.println(w.getText());
-        // }
+         for (WebElement w:sayfaBasliklariListesi) {
+          System.out.println(w.getText());
+         }
         sayfaBasliklariListesi.forEach(t-> System.out.println(t.getText()));
         //Sayfayı kapatınız
         driver.close();

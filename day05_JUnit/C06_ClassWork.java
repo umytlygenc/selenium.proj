@@ -51,5 +51,7 @@ public class C06_ClassWork {
         female.click();
         Thread.sleep(3000);
         custom.click();
+
+
     }
 }
